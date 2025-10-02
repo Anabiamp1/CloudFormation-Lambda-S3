@@ -21,8 +21,14 @@ Este projeto tem como objetivo aplicar conceitos de **automação de infraestrut
 - **AWS Lambda** – função acionada por eventos no S3.  
 
 ---
+## 📊 Diagramas 
+
+<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/c0a65fd6-2a47-46c1-abc5-0bf33064428a" />
 
 
+<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/c8a9da86-8aa3-495f-9b31-a41405152035" />
+
+---
 ##
 ✍️ Autora: Ana Beatriz 
 📌 Este repositório foi criado como parte do desafio da DIO.  
