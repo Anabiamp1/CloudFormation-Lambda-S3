@@ -4,12 +4,15 @@
 Este projeto tem como objetivo aplicar conceitos de **automação de infraestrutura na AWS** utilizando **CloudFormation**, além de consolidar conhecimentos sobre **Lambda Functions** e **Amazon S3**.  
 
 ## 📂 Estrutura do Repositório  
-- `templates/` → Contém o template CloudFormation (`s3-lambda-stack.json`) que cria:
+
+- [template](./template) → Contém o template CloudFormation (`s3-lambda-stack.json`) que cria:
   - Bucket S3
   - Role da Lambda
   - Função Lambda integrada ao bucket
-- `lambda/` → Código da Lambda (`index.js`) e arquivo compactado (`lambda.zip`)
-- `docs/` → Diagramas e imagens de apoio (como o fluxo de processamento)
+- [lambda](./lambda) → Código da Lambda (`index.js`) 
+- [images](./images) → Diagramas e imagens de apoio (como o fluxo de processamento)
+- [docs](./docs/insights) → Reflexões, aprendizados e registro de erros encontrados
+
 
 ## 🛠️ Recursos Criados  
 - **Amazon EC2** – instância simples.  
@@ -19,15 +22,13 @@ Este projeto tem como objetivo aplicar conceitos de **automação de infraestrut
 
 ---
 
-## 📊 Diagramas  
 
-###  
-![EC2 Diagrama](docs/ec2-diagrama.png)  
+##
+✍️ Autora: Ana Beatriz 
+📌 Este repositório foi criado como parte do desafio da DIO.  
+   Santander Code Girls - 2025
 
-### 
-![S3 Diagrama](docs/s3-diagrama.png)  
+##
 
-###   
-![VPC Diagrama](docs/vpc-diagrama.png)  
-
+<a href="https://www.linkedin.com/in/ana-beatriz-m-p-ramos-936b13137/"><img src="https://img.shields.io/badge/-LinkedIn-67cb57?style=for-the-badge&logo=linkedin&logoColor=fff"></a>
 
