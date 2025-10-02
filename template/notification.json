@@ -1,0 +1,9 @@
+{
+  "LambdaFunctionConfigurations": [
+    {
+      "Id": "InvokeLambdaOnObjectCreated",
+      "LambdaFunctionArn": "arn:aws:lambda:us-east-1:094121082126:function:s3-lambda-processor-s3-lambda-stack",
+      "Events": ["s3:ObjectCreated:*"]
+    }
+  ]
+}
