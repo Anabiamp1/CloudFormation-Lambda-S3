@@ -1,1 +1,44 @@
+##📘 Aprendizados e Insights
+
+Automação da infraestrutura reduz erros manuais e facilita replicação de ambientes.
+
+Integração entre S3 e Lambda mostra como aplicar conceitos serverless.
+
+Templates CloudFormation permitem versionar e manter a infraestrutura como código
+
+---
+
+## 📃 Testes Realizados
+
+Para garantir que o processamento funciona corretamente, foram realizados os seguintes testes:
+
+Criação de arquivos de teste
+
+Vários arquivos foram criados e enviados para a pasta input/ do bucket S3.
+
+Verificação de processamento
+
+Todos os arquivos enviados foram processados e salvos na pasta processed/.
+
+O conteúdo de cada arquivo foi verificado, garantindo que a linha Processed at <timestamp> estivesse presente e correta.
+
+Monitoramento via CloudWatch
+
+Todos os eventos de execução da Lambda foram registrados no CloudWatch.
+
+Logs confirmaram que a Lambda leu o arquivo, processou corretamente e gravou na pasta processed/.
+
+Nenhum erro crítico foi encontrado após a instalação do aws-sdk e atualização do código da Lambda.
+
+## 📌 Conclusão
+
+Com este projeto, foi possível consolidar diversos conceitos importantes:
+
+Automação de infraestrutura com CloudFormation, garantindo reproducibilidade e escalabilidade.
+
+Integração Lambda + S3, automatizando o processamento de arquivos sem intervenção manual.
+
+Monitoramento e logs no CloudWatch, permitindo rastrear erros e executar troubleshooting.
+
+O repositório agora contém tanto a infraestrutura automatizada quanto o código de processamento, diagramas explicativos e testes documentados, servindo como material completo de estudo e referência.
 
